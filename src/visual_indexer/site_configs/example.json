@@ -1,0 +1,16 @@
+{
+  "name": "synthetic-example",
+  "domain": "example.invalid",
+  "selectors": {
+    "content_core": "#reference",
+    "project_title": "title",
+    "creator": ".creator",
+    "description": ".description"
+  },
+  "limits": {
+    "max_response_bytes": 200000,
+    "max_assets": 10,
+    "max_video_seconds": 30,
+    "max_keyframes": 4
+  }
+}
